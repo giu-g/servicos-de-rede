@@ -1,0 +1,129 @@
+/* Config. caixa de texto branca*/
+.textspace {
+    margin-top: 2cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    background-color: white;
+    color: rgb(89, 89, 89);
+}
+
+/* Config. caixa de texto preta */
+
+.textspace2 {
+    margin-left: 2cm;
+    margin-right: 2cm;
+    background-color: black;
+    color: white;
+    padding: 1cm;
+}
+.box2{
+    margin-top: 2cm;
+    background-color: black;
+    width: 100%;
+}
+
+/* Estilos dos títulos das caixas de texto */
+
+.tittle1{
+    color: black;
+    font-size: x-large;
+    text-align: center;
+    font-family: sans-serif;
+}
+.tittle2{
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/* Config. das imagens */
+
+img{
+    margin: auto;
+    display: block;
+    border-radius: 1cm;
+}
+
+/* Guia de navegação */
+
+.menu{
+    margin-top: 2cm;
+    background-color: rgb(70, 70, 70);
+    width: 100%;
+    text-align: center;
+}
+.menutext{
+    color: white;
+    margin-top: 2cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    padding: 0.5cm;
+    font-family: sans-serif;
+}
+.menutittle{
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    font-family: sans-serif;
+}
+
+/* Cursor do mouse */
+
+a {
+    text-decoration: none;
+    color: rgb(89, 89, 89);
+  }
+  a:hover {
+    font-weight: 900;
+    color: rgb(226, 43, 122);
+  }
+
+  #Giu a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  #Giu a:hover {
+    font-weight: 900;
+    color: rgb(57, 140, 255);
+  }
+  #Giubs a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  #Giubs a:hover {
+    font-weight: 900;
+    color: rgb(226, 43, 122);
+  }
+  
+/* Header */
+
+  header h1 {
+    text-align: center;
+    position: relative;
+    left: 10%;
+    width: 80%;
+    font-size: 60px;
+    font-weight: 600;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;   
+    margin-top: 12%;
+  }
+  header .header-1{
+    font-family: sans-serif;
+    color: black;
+  }
+
+/* Footer */
+
+footer{
+    text-align: center;
+
+    width: 100%;
+    font-size: large;
+    margin-top: 3cm;
+    font-family: sans-serif;
+    background-color: rgb(226, 43, 122);
+    color: white;
+    padding: 1cm;
+}
